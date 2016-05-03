@@ -1,6 +1,7 @@
 #COMMAND ALIASES --------------------------------
+	alias ll='ls -al'
 	alias ls='ls -a'
-	alias projects='cd ~/Projects'
+	alias projects='cd ~/projects'
 
 #NPM ALIASES ------------------------------------
 
