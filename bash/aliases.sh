@@ -2,6 +2,7 @@
 	alias ll='ls -al'
 	alias ls='ls -a'
 	alias projects='cd ~/projects'
+	alias vim='mvim -v'
 
 #NPM ALIASES ------------------------------------
 
