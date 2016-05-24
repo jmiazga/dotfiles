@@ -5,6 +5,3 @@ fi
 
 #GIT COMPLETION --------------------------------
 	source "${DOTFILE_SCRIPTS}/helpers/git-completion.bash"
-
-#GRUNT COMPLETION ------------------------------
-	#eval "$(grunt --completion=bash)"

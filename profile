@@ -14,6 +14,3 @@ source "${DOTFILE_SCRIPTS}/environment.sh"
 source "${DOTFILE_SCRIPTS}/completion.sh"
 source "${DOTFILE_SCRIPTS}/aliases.sh"
 source "${DOTFILE_SCRIPTS}/prompt.sh"
-
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
