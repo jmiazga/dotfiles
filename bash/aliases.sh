@@ -4,12 +4,13 @@
 	alias projects='cd ~/projects'
 	alias vim='mvim -v'
 	alias atom='atom-beta'
+	alias apm='apm-beta'
 
 #NPM ALIASES ------------------------------------
 
 #GIT ALIASES ------------------------------------
 	alias gs='git status'
-	
+
 #I CAN'T TYPE ALIASES ---------------------------
 	alias nom='npm'
 	alias gti='git'
