@@ -3,11 +3,10 @@
 	alias ls='ls -a'
 	alias projects='cd ~/projects'
 	alias vim='mvim -v'
-	alias atom='atom-beta'
-	alias apm='apm-beta'
 	alias dcc='docker rm $(docker ps -a -q)'
 	alias dci='docker rmi $(docker images -q)'
 	alias dca='dcc; dci'
+
 #NPM ALIASES ------------------------------------
 
 #GIT ALIASES ------------------------------------
