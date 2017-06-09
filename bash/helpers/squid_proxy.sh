@@ -37,7 +37,7 @@ proxy_stop(){
 
 _proxy_init(){
    http_proxy_value="http://$1:$2"
-   https_proxy_value="https://$1:$2"
+   https_proxy_value="http://$1:$2"
 
    apm config set proxy $http_proxy_value
    apm config set https-proxy $http_proxy_value
