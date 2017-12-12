@@ -15,4 +15,4 @@ source "${DOTFILE_SCRIPTS}/completion.sh"
 source "${DOTFILE_SCRIPTS}/aliases.sh"
 source "${DOTFILE_SCRIPTS}/prompt.sh"
 
-source "${DOTFILE_SCRIPTS}/helpers/squid_proxy.sh"
+source "${DOTFILE_SCRIPTS}/helpers/spike_proxy.sh"

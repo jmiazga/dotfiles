@@ -30,9 +30,8 @@ proxy_stop(){
    proxycmd=$'#!/bin/sh\nproxy stop\n'
    echo "$proxycmd" > "${DOTFILE_SCRIPTS}/state/proxy.sh"
 
-   osascript -e 'quit app "SquidMan"'
-   pkill squid
-   pkill squid-1
+   osascript -e 'quit app "Spike"'
+   pkill Spike
 }
 
 _proxy_init(){
@@ -54,8 +53,8 @@ proxy_start(){
    proxycmd=$'#!/bin/sh\nproxy start\n'
    echo "$proxycmd" > "${DOTFILE_SCRIPTS}/state/proxy.sh"
 
-   if [ -z $(pgrep SquidMan) ]; then
-     open ~/Applications/SquidMan.app
+   if [ -z $(pgrep Spike) ]; then
+     open /Applications/Spike.app
    fi
  }
 
