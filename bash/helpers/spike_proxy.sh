@@ -24,9 +24,6 @@ _proxy_assign(){
 proxy_stop(){
    _proxy_assign ""
 
-   apm config rm proxy
-   apm config rm https-proxy
-
    proxycmd=$'#!/bin/sh\nproxy stop\n'
    echo "$proxycmd" > "${DOTFILE_SCRIPTS}/state/proxy.sh"
 
@@ -37,9 +34,6 @@ proxy_stop(){
 _proxy_init(){
    http_proxy_value="http://$1:$2"
    https_proxy_value="http://$1:$2"
-
-   apm config set proxy $http_proxy_value
-   apm config set https-proxy $http_proxy_value
 
    _proxy_assign $http_proxy_value $https_proxy_value
  }
