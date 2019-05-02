@@ -1,4 +1,4 @@
-SOURCE="${BASH_SOURCE[0]}"
+SOURCE="${(%):-%N}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
   DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
   SOURCE="$(readlink "$SOURCE")"
@@ -6,11 +6,7 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 
 export DOTFILES="$(dirname "$SOURCE")"
-export DOTFILE_SCRIPTS="$DOTFILES/bash"
 
 #INCLUDED SOURCES -------------------------------
-source "${DOTFILE_SCRIPTS}/colors.sh"
-source "${DOTFILE_SCRIPTS}/environment.sh"
-source "${DOTFILE_SCRIPTS}/completion.sh"
-source "${DOTFILE_SCRIPTS}/aliases.sh"
-source "${DOTFILE_SCRIPTS}/prompt.sh"
+source "${DOTFILES}/environment.sh"
+source "${DOTFILES}/aliases.sh"
