@@ -6,8 +6,6 @@
 	alias dcc='docker rm $(docker ps -a -q)'
 	alias dci='docker rmi $(docker images -q)'
 	alias dca='dcc; dci'
-	alias chrome_on_vpn_with_spike='open -a "Google Chrome" --args --proxy-pac-url="data:text/plain;base64,ZnVuY3Rpb24gRmluZFByb3h5Rm9yVVJMKHVybCwgaG9zdCkge3JldHVybiAiUFJPWFkgMTI3LjAuMC4xOjMxMjgifQo="'
-	alias ykua='yarn k unlink -a'
 
 #NPM ALIASES ------------------------------------
 
