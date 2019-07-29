@@ -10,3 +10,4 @@ export DOTFILES="$(dirname "$SOURCE")"
 #INCLUDED SOURCES -------------------------------
 source "${DOTFILES}/environment.sh"
 source "${DOTFILES}/aliases.sh"
+source "${DOTFILES}/virtualenvs.sh"
