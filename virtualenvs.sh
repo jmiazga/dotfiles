@@ -1,7 +1,7 @@
 # set where virtual environments will live
 export WORKON_HOME=$HOME/.virtualenvs
 #Set the location that new projects are created using the mkproject command (skip if you won't be using this)
-export PROJECT_HOME=$HOME/projects
+export PROJECT_HOME=$HOME/code
 # use the same directory for virtualenvs as virtualenvwrapper
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 # makes pip detect an active virtualenv and install to it
