@@ -5,7 +5,7 @@
 	alias dcc='docker rm $(docker ps -a -q)'
 	alias dci='docker rmi $(docker images -q)'
 	alias dca='dcc; dci'
-	alias vndly='cd ~/code/vndly3; . venv/bin/activate'
+	alias vndly='cd ~/code/vndly; . venv/bin/activate'
 	alias cleanLogs='find . -name "vndly*.log*" -type f -delete'
 #NPM ALIASES ------------------------------------
 
