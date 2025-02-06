@@ -7,7 +7,7 @@
 	alias dca='dcc; dci'
 	alias vndly='cd ~/code/vndly; . venv/bin/activate'
 	alias cleanLogs='find . -name "vndly*.log*" -type f -delete'
-	alias vup='docker stop $(docker ps -a -q) && make stack-up && make pull && npm run build && npm run bundle && make stack-down && cleanLogs'
+	alias vup='vndly && docker stop $(docker ps -a -q) && make stack-up && make pull && npm run build && npm run bundle && make stack-down && cleanLogs'
 #NPM ALIASES ------------------------------------
 
 #GIT ALIASES ------------------------------------
