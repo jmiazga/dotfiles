@@ -1,7 +1,8 @@
 #ENV VARIABLES ----------------------------------
 	export ASDF_DATA_DIR=/Users/jason.miazga/.asdf
 	export PATH="$ASDF_DATA_DIR/shims:$PATH"
-	export PATH=/usr/local/bin:$PATH
+	export PATH="/usr/local/bin:$PATH"
+	export PATH="/opt/homebrew/bin:$PATH"
 	export GOPATH="$HOME/go"
 	export PATH="/usr/local/opt/icu4c/bin:/usr/local/opt/icu4c/sbin:$GOPATH/bin:$PATH"
 	export PATH="/usr/local/opt/postgresql@12/bin:$PATH"
